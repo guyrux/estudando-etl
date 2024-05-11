@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "case picpay"
+version = "0.1.0"
+description = ""
+authors = ["Silvia Vasconcelos <vascsilvia@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+ipykernel = "^6.29.4"
+pandas = "^2.2.2"
+numpy = "^1.26.4"
+pyarrow = "^16.0.0"
+isort = "^5.13.2"
+blue = "^0.9.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
